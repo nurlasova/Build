@@ -1,0 +1,25 @@
+@media only  screen  and (max-width:736px) {
+    html {
+      box-sizing: border-box;
+    }
+    .container {
+      padding: 0 20px;
+      box-sizing: border-box;
+    }
+    .row{
+      display:flex;
+      flex-wrap: wrap;
+    }
+    .col-3{
+      width: 50%;
+  }
+    .col-4{
+      width: 100%;
+    }
+    .col-5{
+      width: 100%;
+    }
+    .col-6{
+      width: 100%;
+    }
+}

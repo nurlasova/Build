@@ -1,0 +1,39 @@
+.header {
+  padding-top: 20px;
+  position: absolute;
+  top:0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+}
+.header__navigation {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  fill: #f7654a;
+  animation-name: logo;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-direction: normal;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+@keyframes logo {
+  0% {
+    -webkit-transform: scale(0.2, 0.2);
+    transform: scale(0.2, 0.2);
+    opacity: 0.5;
+  }
+  25% {
+    -webkit-transform: scale(0.3, 0.3);
+    transform: scale(0.3, 0.3);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(4, 4);
+    transform: scale(4, 4);
+    opacity: 0;
+  }
+}

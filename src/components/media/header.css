@@ -1,0 +1,8 @@
+@media only  screen  and (max-width:736px) {
+    
+    .header___menu{
+        max-width: 50%;
+        max-height: 50%;
+    }
+
+}

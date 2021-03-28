@@ -1,0 +1,45 @@
+.project__title {
+  font-family: 'Oswald', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 53px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #404149;
+  padding-top: 100px;
+}
+.project__content {
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.project__line {
+  padding-top: 45px;
+  padding-bottom: 15px;
+}
+.project__item--title {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #404149;
+  padding-bottom: 20px;
+}
+.project__item--text {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #999999;
+}
+.project .swiper-container {
+  min-height: 660px;
+  padding-top: 60px;
+}
+.project .swiper-pagination-bullet {
+  background: rgba(231, 42, 42, 0.904);
+}
+.project .swiper-pagination-bullet-active {
+  background-color: rgba(247, 101, 74, 1);
+}
