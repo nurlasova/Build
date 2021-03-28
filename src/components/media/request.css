@@ -1,0 +1,12 @@
+@media only  screen  and (max-width:736px){
+    .request__title {
+        font-size: 25px;
+        text-align: center;
+    }
+    .request__suptitle {
+        font-size: 18px;
+        text-align: center;
+    }
+    
+
+}

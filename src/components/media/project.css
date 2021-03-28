@@ -1,0 +1,15 @@
+@media only  screen  and (max-width:736px){
+    .project__title{
+        font-size: 30px;
+    }
+    .project__item--title{
+        font-size: 18px;
+    }
+    .project .swiper-container {
+        min-height: 400px;
+        padding-top: 60px;
+      }
+      .project .col-4{
+          width: 100%;
+      }
+}

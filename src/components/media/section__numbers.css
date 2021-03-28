@@ -1,0 +1,16 @@
+@media only  screen  and (max-width:736px){
+       .numbers{
+        padding:20px 0;
+    }
+    .number__item{
+        font-size: 48px;
+    }
+    .year{
+        font-size: 30px;
+     
+    }
+    .year__market{
+     font-size: 12px;
+       
+    }
+}
