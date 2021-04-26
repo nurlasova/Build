@@ -1,5 +1,5 @@
 .hero {
-  background-image:url(/src/images/png/bgimg.png);
+  background-image:url(../../images/png/bgimg.png);
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
