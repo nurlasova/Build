@@ -37,3 +37,52 @@
     opacity: 0;
   }
 }
+.hum{
+  border: none;
+  outline: none;
+  background-color: transparent;
+  position: fixed;
+  right: 10%;
+  z-index: 100;
+  top: 7%;
+}
+.close{
+  display: none;
+  fill: white;
+}
+svg{
+  width: 25px;
+  height: 25px;
+}
+.menu{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 19%;
+  height: 100vh;
+  background-color: #f7654a;
+  padding: 30px;
+  transform: translateX(100%);
+  transition: 0.4s;
+}
+.menu__item{
+  
+  margin: 20px 0;
+  font-weight: 500;
+  list-style: none;
+  
+}
+.menu__link{
+  color: white;
+  text-decoration:none;
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+}
+.menu__link:hover{
+  border-bottom: 2px solid white;
+}
+.showMenu{
+  transform: translateX(0);
+}
