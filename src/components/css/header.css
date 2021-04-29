@@ -49,8 +49,6 @@
 .close{
   display: none;
   fill: white;
-}
-svg{
   width: 25px;
   height: 25px;
 }
