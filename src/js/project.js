@@ -10,3 +10,4 @@ const swiper1 = new Swiper('.swiper1', {
     },
   
     });
+

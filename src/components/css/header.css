@@ -9,6 +9,7 @@
 .header__navigation {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .logo {
   fill: #f7654a;
@@ -18,7 +19,7 @@
   animation-direction: normal;
   animation-timing-function: linear;
   animation-fill-mode: forwards;
-  animation-iteration-count: infinite;
+  animation-iteration-count: 2;
 }
 @keyframes logo {
   0% {
@@ -32,9 +33,9 @@
     opacity: 1;
   }
   100% {
-    -webkit-transform: scale(4, 4);
-    transform: scale(4, 4);
-    opacity: 0;
+    -webkit-transform: scale(1,1);
+    transform: scale(1,1);
+    opacity: 1;
   }
 }
 .hum{
